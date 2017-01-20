@@ -1,0 +1,31 @@
+<DOCTYPE HTML!>
+
+<HTML>
+<head>
+	<title>Mortgage Calculator</title>
+	<link rel="stylesheet" type="text/css" href="mortgagecalc.css">
+</head>
+
+<body>
+	<h1>Simple Mortgage Calculator</h1>
+	<p> 
+			<div class = "info"> 
+				<center><u> Input Mortgage Data Here: </u></center>
+				<ul>
+					<li> Cost of House: <input type="text" size="5" id="cost" placeholder="500000"> </li>
+					<li> Interest: <input type="text" size="5" id="inter" placeholder="4"> </li>
+					<li> Down Payment (%): <input type="text" size="5" id="down" placeholder="20"> </li>
+					<li> Years: <input type="text" size="5" id="years" placeholder= "30"> </li>
+				</ul>
+			</div>
+			
+	</p>
+	<p>
+		<center><button type= "button" class="butt" onclick="monthlyCost()">Calculate Monthly Payment</button></center>
+	</p>
+	<p id="output" class="output">
+		Monthly Payment: 
+	</p>
+<script src="mortgagecalc.js"></script>
+</body>
+</HTML>
